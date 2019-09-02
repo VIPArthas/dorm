@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */  
+
+.login-bgcolor-tip{
+   background: #e6ebf4;
+   height: 600px;
+   position: relative;
+}
+.login-tip-box{
+	    width: 850px;
+    height: 192px; 
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    margin-left: -425px;
+    margin-top: -96px;
+    box-shadow: 2px 2px 6px rgba(80,99,143,.39);
+    background: url(../img/tip.png) left 40px center no-repeat #fff;
+    border-radius: 8px;
+    padding: 40px 40px 40px 188px;
+}
+.login-tip-box>h3{
+	color: #41a158;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 0;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #c4d6c8;
+	margin-bottom: 20px;
+}
+.login-tip-box>p{
+	color: #41a158;
+	font-size: 14px;
+	line-height: 24px;
+	margin:0;
+}

@@ -1,0 +1,19 @@
+#金智单点登录配置文件
+
+# idstar 配置文件
+
+# IdentityManager 的实现类
+im.impl = ice
+
+######## IDS参数 ############
+#ids.UserName=amadmin
+#ids.Password = doremifa
+
+ids.UserName=YXV0aGRhbmdhbg==
+ids.Password=ZGFuZ2FuYXV0aA==
+
+#
+# 服务器地址, 请修改
+#
+IdentityManager.Proxy=IdentityManager:tcp -p 20000 -h 202.120.108.135
+#IdentityManager.Proxy=IdentityManager:tcp -p 20000 -h 202.120.108.135:tcp -p 20000 -h 202.120.108.136

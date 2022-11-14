@@ -29,7 +29,7 @@
   <url>http://maven.apache.org</url>
   
   <properties>
-  	<spring.version>3.2.6.RELEASE</spring.version>
+  	<spring.version>3.2.18.RELEASE</spring.version>
   	<jackson.version>2.2.1</jackson.version>
   	<cas.version>4.0.0</cas.version>
   	<finalName>dmm_cas</finalName>
